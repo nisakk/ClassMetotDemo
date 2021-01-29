@@ -31,9 +31,9 @@ namespace ClassMetotDemo
 			customer3.Soyadi = "Güzel";
 			customer3.City = "İstanbul";
 
-			////customerManager.Add(customer1);
-			//customerManager.Update(customer2);
-			//customerManager.Delete(customer3);
+			customerManager.Add(customer1);
+			customerManager.Update(customer2);
+			customerManager.Delete(customer3);
 
 
 			Customer[] customers = new Customer[ ]{customer1,customer2,customer3 };
